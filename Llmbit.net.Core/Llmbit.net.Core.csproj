@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<ProductName>Llmbit.net</ProductName>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>12</LangVersion>
+		<Version>1.7.2</Version>
+		<Authors>Sandro Hanea</Authors>
+		<Description>Cross-platform dotnet bindings for llmbit.net</Description>
+		<PackageProjectUrl>https://github.com/sandrohanea/llmbit.net</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/sandrohanea/llmbit.net</RepositoryUrl>
+		<RepositoryType>GIT</RepositoryType>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RootNamespace>Llmbit.net</RootNamespace>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;</TargetFrameworks>
+	</PropertyGroup>
+
+
+</Project>

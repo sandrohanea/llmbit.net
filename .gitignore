@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/runtimes/Llmbit.net.Runtime.*/*
+!/runtimes/Llmbit.net.Runtime.*/*.targets

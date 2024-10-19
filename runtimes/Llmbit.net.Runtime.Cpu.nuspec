@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Llmbit.net.Runtime.Cpu</id>
+    <title>Llmbit.net.Runtime.Cpu</title>
+    <version>$version$</version>
+    <authors>Sandro Hanea</authors>
+    <owners>Sandro Hanea</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>CPU dotnet runtimes for LlmBit.net.</summary>
+    <description>Llmbit.net.Runtime.Cpu contains the native runtime libraries to enable llmbit.net on .NET with CPU inference.</description>
+    <tags>bitnet;llm;inference;llmbitnet</tags>
+    <projectUrl>https://github.com/sandrohanea/whisper.net</projectUrl>
+    <license type="expression">MIT</license>
+    <readme>content/readme.md</readme>
+  </metadata>
+  <files>
+    <file src="Llmbit.net.Runtime.Cpu\**" target="build"/>
+    <file src="../readme.md" target="content/readme.md" />
+  </files>
+</package>
